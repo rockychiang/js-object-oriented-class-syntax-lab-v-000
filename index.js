@@ -22,7 +22,7 @@ class BoardMember {
   }
   
   sayHi() {
-    `Hi, my name is ${name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
+    `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`
   }
 }
 
