@@ -1,3 +1,23 @@
 class BoardMember {
+  constructor (name, homeState, training) {
+    this.name = name;
+    this.homeState = homeState;
+    this.training = training;
+  }
   
+  veto() {
+    return "No, I mmust disagree"
+  }
+  
+  approve() {
+    return "You can do that!"
+  }
+  
+  doCharity() {
+    return "I like to help people."
+  }
+  
+  releasePressStatement() {
+    return "You will see great things from Scuber."
+  }
 }
